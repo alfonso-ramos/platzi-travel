@@ -679,6 +679,10 @@ select {
   --tw-backdrop-sepia:  ;
 }
 
+.font-Montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
