@@ -34,7 +34,7 @@ module.exports = {
         'terciary': '#61AEC9'
       },
       fontFamily: {
-        Montserrat: ["Montserrat", "sans-serif"]
+        'Montserrat': ["Montserrat", "sans-serif"]
       }
     },
   },
