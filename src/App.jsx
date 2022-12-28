@@ -18,7 +18,15 @@ function App() {
             </div>
           </div>
         </div>
-        <div id="recommended"></div>
+        <div className="p-20" id="recommended">
+          <div className="w-48 h-64 shadow-lg rounded-lg">
+            <div className="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+            <div className="bg-secondary w-full h-2/5 rounded-b-lg">
+              <p className="text-white font-bold text-xl px-4 py-2">Norway</p>
+              <p className="text-white text-md px-4">Beatifull landscapes</p>
+            </div>
+          </div>
+        </div>
         <div id="featured_sales"></div>
       </section>
       <footer></footer>
