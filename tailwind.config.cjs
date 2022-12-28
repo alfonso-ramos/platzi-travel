@@ -37,10 +37,17 @@ module.exports = {
         'Montserrat': ["Montserrat", "sans-serif"]
       }
     },
+    variants: {
+      width: ['responsive', 'hover', 'focus'],
+      extends: {
+
+      }
+    }
   },
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio')
+    require('@tailwindcss/aspect-ratio'),
+    require('tailwind-scrollbar-hide')
   ],
 }

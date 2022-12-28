@@ -1,15 +1,15 @@
 function App() {
 
   return (
-    <div className="App">
+    <div className="App font-Montserrat">
       <nav></nav>
       <div id="tab_bar"></div>
       <section className="w-full h-screen">
         <div id="home">
           <div className="w-full h-3/4">
             <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center ">
-              <input type="search" className="outline-none p-3 rounded-full pl-4 shadow-sm " placeholder="San Francisco" />
-              <button className="bg-white text-xl font-semibold p-4 m-0 w-36 rounded-full text-primary">
+              <input type="search" className="w-48 outline-none p-3 rounded-full pl-4 shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" placeholder="San Francisco" />
+              <button className="bg-white text-lg font-semibold p-4 m-0 w-48 rounded-full text-primary transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110a">
                 Explore
               </button>
             </div>
@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className="p-6" id="recommended">
           <p className="text-3xl font-semibold text-primary">Our recommended</p>
-          <div className="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4">
+          <div className="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4 scrollbar-hide">
 
             <div className="Card">
               <div className=" bg-norway "></div>
