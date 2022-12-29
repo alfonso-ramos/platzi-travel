@@ -1,5 +1,5 @@
 function App() {
-
+//
   return (
     <div className="App font-Montserrat">
       <nav></nav>
@@ -14,7 +14,7 @@ function App() {
               </button>
             </div>
             <div className="w-full h-full">
-              <img src="/img/sanFrancisco.jpg" alt="" />
+               <img src="/img/sanFrancisco.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ function App() {
 
           </div>
         </div>
-        <div className="px-2 h-full w-full" id="featured_sales">
+        <div className="px-2 h-auto w-full" id="featured_sales">
           <p className="text-3xl text-primary font-semibold mt-6">Trending Stays</p>
           <div className="w-full h-auto flex flex-col space-y-6 items-center justify-center mt-6">
             <div className="w-full h-96 bg-chicago bg-cover rounded-xl">
@@ -87,6 +87,26 @@ function App() {
               <p className="text-md pl-8 text-white mr-24">2 rooms, 2 bathroom kitchen and private pool</p>
             </div>
             
+          </div>
+        </div>
+
+        <div className="w-full h-full flex flex-col space-y-4 pt-6" id="faqs">
+          <div className="w-full h-full px-6">
+            <p className="text-3xl text-primary font-semibold">FAQs</p>
+            <div className="pt-4">
+              <p className="text-xl font-md text-primary">Payment Methods</p>
+              <p className="font-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+            </div>
+
+            <div className="pt-4">
+              <p className="text-xl font-md text-primary">Cancellation Policy</p>
+              <p className="font-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+            </div>
+
+            <div className="pt-4">
+              <p className="text-xl font-md text-primary">Long Stays </p>
+              <p className="font-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+            </div>
           </div>
         </div>
       </section>
