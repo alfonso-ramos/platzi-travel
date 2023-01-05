@@ -1,10 +1,11 @@
+import {HomeIcon, MagnifyingGlassIcon, HeartIcon, UserIcon, MoonIcon} from "@heroicons/react/20/solid"
+
 function App() {
-//
+  //
   return (
     <div className="App font-Montserrat">
       <nav></nav>
-      <div id="tab_bar"></div>
-      <section className="w-full h-screen">
+      <section className="w-full h-auto">
         <div id="home">
           <div className="w-full h-3/4">
             <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center ">
@@ -14,7 +15,7 @@ function App() {
               </button>
             </div>
             <div className="w-full h-full">
-               <img src="/img/sanFrancisco.jpg" alt="" />
+              <img src="/img/sanFrancisco.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -86,7 +87,7 @@ function App() {
               <p className="CardTitle">Bali</p>
               <p className="text-md pl-8 text-white mr-24">2 rooms, 2 bathroom kitchen and private pool</p>
             </div>
-            
+
           </div>
         </div>
 
@@ -110,7 +111,33 @@ function App() {
           </div>
         </div>
       </section>
-      <footer></footer>
+      <footer className="w-full h-auto bg-gray-50 text-gray-300 p-5 space-y-2">
+        <p className="text-lg">About Us</p>
+        <p className="text-md">Inverstors</p>
+        <p className="text-md">Jobs</p>
+        <p className="text-md">Privacy policy</p>
+        <p className="text-md">Terms and Conditions</p>
+        <p className="text-md">Platzi Travel, inc</p>
+        <p className="text-md">Follow Us</p>
+      </footer>
+      <br />
+      <div className="w-full h-16 bg-white flex space-x-8 items-center justify-center fixed left-0 bottom-0 shadow-md" id="tab_bar">
+        <a href="#home">
+          <HomeIcon className="w-7 h-7 text-gray-300"/>
+        </a>
+        <a href="#recommended">
+          <MagnifyingGlassIcon className="w-7 h-7 text-primary"/>
+        </a>
+        <a href="#featured_sales">
+          <HeartIcon className="w-7 h-7 text-gray-300"/>
+        </a>
+        <button>
+          <MoonIcon className="w-7 h-7 text-gray-300"/>
+        </button>
+        <a href="">
+          <UserIcon className="w-7 h-7 text-gray-300"/>
+        </a>
+      </div>
     </div>
   )
 }

@@ -10,6 +10,7 @@
     "tw:build": "tailwind -i ./src/tailwind.css -o ./public/css/tailwind.css --watch"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "react": "^18.2.0",
