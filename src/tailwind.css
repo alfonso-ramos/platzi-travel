@@ -13,10 +13,10 @@
         @apply w-full h-2/5 rounded-b-lg px-4;
 
         p:nth-child(1){
-            @apply font-bold text-xl px-2 py-2;
+            @apply font-bold text-xl px-2 py-2 dark:text-white;
         }
         p:nth-child(2) {
-            @apply text-base px-2
+            @apply text-base px-2 dark:text-white
         }
 
     }

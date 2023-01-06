@@ -7,7 +7,7 @@ export const Home = () => {
                     <div className="hidden h-auto pb-6 lg:w-2/5 lg:flex">
                         <p className="text-4xl ml-16 font-bold ">Find More Locations like this</p>
                     </div>
-                    <button className="bg-white text-lg font-semibold p-4 m-0 w-48 rounded-full text-primary transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110a lg:ml-16">
+                    <button className="bg-white text-lg font-semibold p-4 m-0 w-48 rounded-full text-primary transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110a lg:ml-16 dark:text-black">
                         Explore More
                     </button>
                 </div>

@@ -1,7 +1,7 @@
 export const FeaturedStays = () => {
     return (
         <div className="px-2 h-auto w-full" id="featured_sales">
-            <p className="text-3xl text-primary font-semibold mt-6">Trending Stays</p>
+            <p className="text-3xl text-primary font-bold mt-6 dark:text-white">Trending Stays</p>
             <div className="w-full h-auto flex flex-col space-y-6 items-center justify-center mt-5 lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:gap-3">
 
                 <div className="w-full h-96 bg-chicago bg-cover rounded-xl lg:bg-center lg:col-span-2 lg:row-span-1">
