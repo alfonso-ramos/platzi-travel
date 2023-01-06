@@ -13,7 +13,7 @@ export const FAQs = () => {
                     <p className="font-md pt-2 dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
                 </div>
 
-                <div className="py-4">
+                <div className="py-4 ">
                     <p className="text-xl font-semibold text-primary dark:text-white">Long Stays </p>
                     <p className="font-md pt-2 dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
                 </div>
