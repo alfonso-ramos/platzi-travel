@@ -1,13 +1,36 @@
-import {HomeIcon, MagnifyingGlassIcon, HeartIcon, UserIcon, MoonIcon} from "@heroicons/react/20/solid"
+import { HomeIcon, MagnifyingGlassIcon, HeartIcon, UserIcon, MoonIcon } from "@heroicons/react/20/solid"
 
 function App() {
   //
   return (
     <div className="App font-Montserrat">
-      <nav></nav>
+      <nav className="w-full h-14 hidden bg-white lg:flex py-4 justify-around fixed z-10">
+        <div className="h-auto w-auto">
+          <p className="text-xl text-primary font-bold">Platzi Travel</p>
+        </div>
+        <div className="flex space-x-8">
+          <a className="font-bold text-md text-primary" href="#home">Locations</a>
+          <a className="font-bold text-md text-primary" href="#home">Stays</a>
+          <a className="font-bold text-md text-primary" href="#home">FAQs</a>
+          <a className="font-bold text-md text-primary" href="#home">About Us</a>
+        </div>
+        <div className="flex space-x-4">
+          <a href="#recommended">
+            <MagnifyingGlassIcon className="w-7 h-7 text-primary" />
+          </a>
+
+          <button>
+          <MoonIcon className="w-7 h-7 text-gray-300" />
+        </button>
+
+        <a href="">
+          <UserIcon className="w-7 h-7 text-gray-300" />
+        </a>
+        </div>
+      </nav>
       <section className="w-full h-auto">
-        <div id="home">
-          <div className="w-full h-3/4">
+        <div className="w-full h-3/4" id="home">
+          <div className="w-full h-full">
             <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-32 lg:justify-start">
               <input type="search" className="w-48 outline-none p-3 rounded-full pl-4 shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden" placeholder="San Francisco" />
               <div className="hidden h-auto pb-6 lg:w-2/5 lg:flex">
@@ -127,19 +150,19 @@ function App() {
       <br />
       <div className="w-full h-16 bg-white flex space-x-8 items-center justify-center fixed left-0 bottom-0 shadow-md lg:hidden" id="tab_bar">
         <a href="#home">
-          <HomeIcon className="w-7 h-7 text-gray-300"/>
+          <HomeIcon className="w-7 h-7 text-gray-300" />
         </a>
         <a href="#recommended">
-          <MagnifyingGlassIcon className="w-7 h-7 text-primary"/>
+          <MagnifyingGlassIcon className="w-7 h-7 text-primary" />
         </a>
         <a href="#featured_sales">
-          <HeartIcon className="w-7 h-7 text-gray-300"/>
+          <HeartIcon className="w-7 h-7 text-gray-300" />
         </a>
         <button>
-          <MoonIcon className="w-7 h-7 text-gray-300"/>
+          <MoonIcon className="w-7 h-7 text-gray-300" />
         </button>
         <a href="">
-          <UserIcon className="w-7 h-7 text-gray-300"/>
+          <UserIcon className="w-7 h-7 text-gray-300" />
         </a>
       </div>
     </div>
