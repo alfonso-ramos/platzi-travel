@@ -8,14 +8,17 @@ function App() {
       <section className="w-full h-auto">
         <div id="home">
           <div className="w-full h-3/4">
-            <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center ">
-              <input type="search" className="w-48 outline-none p-3 rounded-full pl-4 shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" placeholder="San Francisco" />
-              <button className="bg-white text-lg font-semibold p-4 m-0 w-48 rounded-full text-primary transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110a">
+            <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-32 lg:justify-start">
+              <input type="search" className="w-48 outline-none p-3 rounded-full pl-4 shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden" placeholder="San Francisco" />
+              <div className="hidden h-auto pb-6 lg:w-2/5 lg:flex">
+                <p className="text-4xl ml-16 font-bold ">Find More Locations like this</p>
+              </div>
+              <button className="bg-white text-lg font-semibold p-4 m-0 w-48 rounded-full text-primary transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110a lg:ml-16">
                 Explore More
               </button>
             </div>
-            <div className="w-full h-full">
-              <img src="/img/sanFrancisco.jpg" alt="" />
+            <div className="w-full h-full lg:h-96 lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
+              <img className="lg:hidden" src="/img/sanFrancisco.jpg" alt="San Francisco Image" />
             </div>
           </div>
         </div>
@@ -67,23 +70,24 @@ function App() {
         </div>
         <div className="px-2 h-auto w-full" id="featured_sales">
           <p className="text-3xl text-primary font-semibold mt-6">Trending Stays</p>
-          <div className="w-full h-auto flex flex-col space-y-6 items-center justify-center mt-6">
-            <div className="w-full h-96 bg-chicago bg-cover rounded-xl">
+          <div className="w-full h-auto flex flex-col space-y-6 items-center justify-center mt-5 lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:gap-3">
+
+            <div className="w-full h-96 bg-chicago bg-cover rounded-xl lg:bg-center lg:col-span-2 lg:row-span-1">
               <p className="CardTitle">Chicago</p>
               <p className="text-md pl-8 text-white mr-24">2 rooms, 1 bathroom and kitchen</p>
             </div>
 
-            <div className="w-full h-96 bg-LA bg-cover rounded-xl">
+            <div className="w-full h-96 bg-LA bg-cover rounded-xl lg:col-span-1 lg:row-span-3 lg:h-full">
               <p className="CardTitle">Los Angeles</p>
               <p className="text-md pl-8 text-white mr-24">4 rooms, 3 bathroom kitchen and private pool</p>
             </div>
 
-            <div className="w-full h-96 bg-miami bg-cover rounded-xl">
+            <div className="w-full h-96 bg-miami bg-cover rounded-xl lg:h-full">
               <p className="CardTitle">Miami</p>
               <p className="text-md pl-8 text-white mr-24">3 rooms, 2 bathroom kitchen and amazing sea view</p>
             </div>
 
-            <div className="w-full h-96 bg-bali bg-cover rounded-xl">
+            <div className="w-full h-96 bg-bali bg-cover rounded-xl lg:h-full">
               <p className="CardTitle">Bali</p>
               <p className="text-md pl-8 text-white mr-24">2 rooms, 2 bathroom kitchen and private pool</p>
             </div>
@@ -121,7 +125,7 @@ function App() {
         <p className="text-md">Follow Us</p>
       </footer>
       <br />
-      <div className="w-full h-16 bg-white flex space-x-8 items-center justify-center fixed left-0 bottom-0 shadow-md" id="tab_bar">
+      <div className="w-full h-16 bg-white flex space-x-8 items-center justify-center fixed left-0 bottom-0 shadow-md lg:hidden" id="tab_bar">
         <a href="#home">
           <HomeIcon className="w-7 h-7 text-gray-300"/>
         </a>
