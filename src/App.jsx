@@ -12,14 +12,13 @@ function App() {
 
   const [darkMode, setDarkMode] = useState(false)
   const toggleDarkMode = () => {
-    console.log("DarkMode")
     setDarkMode(!darkMode)
   }
 
   return (
     <div className={`App font-Montserrat ${darkMode && 'dark'}`} >
       <Navbar toggleDarkMode={toggleDarkMode} />
-      <section className="w-full h-auto dark:bg-slate-900">
+      <section className="w-full h-auto dark:bg-slate-900 InOutTransition">
         <Home  />
         <Recommended />
         <FeaturedStays />
