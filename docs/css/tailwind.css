@@ -863,19 +863,19 @@ select {
 }
 
 .bg-chicago {
-  background-image: url('/img/chicago.webp');
+  background-image: url('../img/chicago.webp');
 }
 
 .bg-LA {
-  background-image: url('/img/la.webp');
+  background-image: url('../img/la.webp');
 }
 
 .bg-miami {
-  background-image: url('/img/miami.webp');
+  background-image: url('../img/miami.webp');
 }
 
 .bg-bali {
-  background-image: url('/img/bali.webp');
+  background-image: url('../img/bali.webp');
 }
 
 .bg-norway {
@@ -883,19 +883,19 @@ select {
 }
 
 .bg-new_york {
-  background-image: url('/img/new-york.webp');
+  background-image: url('../img/new-york.webp');
 }
 
 .bg-yosemite {
-  background-image: url('/img/yosemite.webp');
+  background-image: url('../img/yosemite.webp');
 }
 
 .bg-seattle {
-  background-image: url('/img/seattle.webp');
+  background-image: url('../img/seattle.webp');
 }
 
 .bg-switerland {
-  background-image: url('/img/switzerland.webp');
+  background-image: url('../img/switzerland.webp');
 }
 
 .bg-cover {

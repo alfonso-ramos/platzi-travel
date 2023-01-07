@@ -12,7 +12,7 @@ export const Home = () => {
                     </button>
                 </div>
                 <div className="w-full h-full lg:h-96 lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
-                    <img className="lg:hidden" src="/public/img/sanFrancisco.jpg" alt="San Francisco Image" />
+                    <img className="lg:hidden" src="/img/sanFrancisco.webp" alt="San Francisco Image" />
                 </div>
             </div>
         </div>
